@@ -1,0 +1,54 @@
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#tarcza{
+     background-image: url(grafiki/tarcza.jpg);
+     background-repeat: no-repeat;
+     background-position: center;
+     width:1000px;
+     height: 1000px;
+     z-index: 1;
+
+
+}
+#hour{
+     background-image: url(grafiki/hour.svg);
+     background-repeat: no-repeat;
+     width:11px;
+     height: 189px;
+     z-index: 4;
+     position: relative;
+     left: 494px;
+     top: 312px;
+     transform-origin: bottom center;
+
+
+
+}
+#minute{
+     background-image: url(grafiki/minute.svg);
+     background-repeat: no-repeat;
+     width:7px;
+     height: 253px;
+     z-index: 3;
+     position: relative;
+     left: 496px;
+     top: 59px;
+     transform-origin: bottom center;
+
+}
+#second{
+     background-image: url(grafiki/second.svg);
+     background-repeat: no-repeat;
+     width:4px;
+     height: 282px;
+     z-index: 2;
+     position: relative;
+     left: 498px;
+     top: -223px;
+     transform-origin: bottom center;
+
+}

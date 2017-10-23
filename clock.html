@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Zegar</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css">
+    <link rel="stylesheet" href="clock.css">
+    <script src="clock.js" async></script>
+</head>
+<body>
+    <div id="tarcza">
+    <div id="hour"></div>
+    <div id="minute"></div>
+    <div id="second"></div>
+    </div>
+<script>rotateAnimationHour("hour",600000);</script>
+<script>rotateAnimationMinute("minute",10000);</script>
+<script>rotateAnimationSecond("second",166);</script>
+</body>
+</html>
